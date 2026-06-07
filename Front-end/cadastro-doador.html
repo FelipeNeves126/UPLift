@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Doador</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body style="background-color: #f9f9f9;">
+    <header class="header-simples">
+        <a href="index.html" class="btn-voltar">← Voltar</a>
+        <h1 class="logo-simples">UPLift</h1>
+        <div style="width: 60px;"></div>
+    </header>
+
+    <main class="container-cadastro-pagina">
+        <div class="box-formulario-pagina">
+            <div class="cabecalho-form">
+                <h2>Crie sua conta</h2>
+                <p>Junte-se à comunidade e comece a impactar o mundo hoje mesmo.</p>
+            </div>
+
+            <form id="form-cadastro-doador">
+                <div class="grupo-input">
+                    <label for="cad-nome">Nome Completo</label>
+                    <input type="text" id="cad-nome" placeholder="Digite seu nome completo" required>
+                </div>
+
+                <div class="grupo-input">
+                    <label for="cad-cpf">CPF</label>
+                    <input type="text" id="cad-cpf" placeholder="000.000.000-00" required>
+                </div>
+
+                <div class="grupo-input">
+                    <label for="cad-email">E-mail</label>
+                    <input type="email" id="cad-email" placeholder="seu@email.com" required>
+                </div>
+
+                <div class="grupo-input">
+                    <label for="cad-senha">Senha</label>
+                    <input type="password" id="cad-senha" placeholder="Crie uma senha forte" required>
+                </div>
+
+                <div class="grupo-input">
+                    <label for="cad-confirma-senha">Confirmar Senha</label>
+                    <input type="password" id="cad-confirma-senha" placeholder="Repita sua senha" required>
+                </div>
+
+                <div class="termos-aceite">
+                    <input type="checkbox" id="cad-termos" required>
+                    <label for="cad-termos">Eu concordo com os <a href="#">Termos de Uso</a> e a <a href="#">Política de Privacidade</a>.</label>
+                </div>
+
+                <button type="submit" class="btn-primario btn-full" style="margin-top: 16px;">Finalizar Cadastro</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

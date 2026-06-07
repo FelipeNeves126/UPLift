@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Empresa - UPLift</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body style="background-color: #f9f9f9;">
+    
+    <header class="header-simples">
+        <a href="index.html" class="btn-voltar">← Voltar</a>
+        <h1 class="logo-simples">UPLift</h1>
+        <div style="width: 60px;"></div>
+    </header>
+
+    <main class="container-cadastro-pagina">
+        <div class="box-formulario-pagina">
+            <div class="cabecalho-form">
+                <h2>Seja uma Parceira</h2>
+                <p>Fortaleça sua marca recompensando quem transforma o mundo.</p>
+            </div>
+
+            <div class="aviso-configuracao">
+                <strong>💡 Importante:</strong> A configuração dos tipos de recompensas e a definição de quantos UPLift Points cada bônus vai custar serão feitas no seu painel de controle <strong>após</strong> a conclusão do cadastro.
+            </div>
+
+            <form id="form-cadastro-empresa">
+                <div class="grupo-input">
+                    <label for="cad-emp-razao">Razão Social</label>
+                    <input type="text" id="cad-emp-razao" placeholder="Razão Social da sua Empresa" required>
+                </div>
+
+                <div class="grupo-input">
+                    <label for="cad-emp-fantasia">Nome Fantasia</label>
+                    <input type="text" id="cad-emp-fantasia" placeholder="Como os clientes te conhecem" required>
+                </div>
+
+                <div class="grupo-input">
+                    <label for="cad-emp-cnpj">CNPJ</label>
+                    <input type="text" id="cad-emp-cnpj" placeholder="00.000.000/0000-00" required>
+                </div>
+
+                <div class="grupo-input">
+                    <label for="cad-emp-email">E-mail Corporativo</label>
+                    <input type="email" id="cad-emp-email" placeholder="contato@suaempresa.com.br" required>
+                </div>
+
+                <div class="grupo-input">
+                    <label for="cad-emp-senha">Senha de Acesso</label>
+                    <input type="password" id="cad-emp-senha" placeholder="Crie uma senha forte" required>
+                </div>
+
+                <div class="termos-aceite">
+                    <input type="checkbox" id="cad-emp-termos" required>
+                    <label for="cad-emp-termos">Eu concordo com os <a href="#">Termos de Parceria</a> e declaro que sou representante legal da empresa.</label>
+                </div>
+
+                <button type="submit" class="btn-primario btn-full" style="margin-top: 16px;">Criar Conta Empresarial</button>
+            </form>
+        </div>
+    </main>
+
+</body>
+</html>

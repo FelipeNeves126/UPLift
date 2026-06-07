@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPLift</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <script src="script/script.js" defer></script>
+</head>
+<body>
+    <header id="main-header">
+        <button id="menu-btn">☰</button>    
+        <h1>UPLift</h1>
+        <nav id="menu-mobile">
+            <ul>
+                <li><a href="#" id="link-menu-impacto">IMPACTO</a></li>
+                <li><a href="#" id="link-menu-funcionamento">FUNCIONAMENTO</a></li>
+                <li><a href="#" id="link-menu-cadastro">CADASTRO</a></li>
+                <li><a href="#" id="link-menu-login">LOGIN</a></li>
+            </ul>
+        </nav>
+
+        <div id="perfil-usuario">
+           <button id="btn-avatar">
+                <svg viewBox="0 0 24 24" fill="#888888" height="24" width="24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"></path>
+                </svg>
+           </button>
+        </div>
+    </header>
+
+    <main id="conteudo-principal">
+        <section id="inicio">
+            <div id="inicio-conteudo">
+                <h2>Pequenas ações<br>Impactos gigantes</h2>
+                <p>Conectamos sua generosidade a quem mais precisa. Doe, acumule pontos e acompanhe a diferença que você faz no mundo em tempo real.</p>
+                <div id="botoes-inicio">
+                    <button class="btn-primario" id="btn-iniciar-cadastro">Quero fazer parte</button>
+                    <button class="btn-secundario" id="btn-funcionamento">Como Funciona</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="impacto-preview">
+            <div class="impacto-card">
+                <h3>O poder da nossa comunidade</h3>
+
+                <div class="grid-numeros">
+                    <div class="numero-item">
+                        <span class="numero-destaque">+5k</span>
+                        <span class="numero-texto">Vidas<br>Impactadas</span>
+                    </div>
+                    <div class="numero-item">
+                        <span class="numero-destaque">12</span>
+                        <span class="numero-texto">Países<br>Alcançados</span>
+                    </div>
+                    <div class="numero-item">
+                        <span class="numero-destaque">1.2M</span>
+                        <span class="numero-texto">Pontos<br>Doados</span>
+                    </div>
+                </div>
+
+                <a href="#" class="link-saiba-mais" id="btn-ver-relatorio">Ver relatório completo ➔</a>
+            </div>
+        </section>
+
+        <section id="loja-preview" style="display: none;">
+            <div class="impacto-card">
+                <h3>UPLift Store</h3>
+                <p style="color: #666; font-size: 0.95rem; margin-bottom: 20px;">Use seus UPLift Points para resgatar passagens, cupons de apps de entrega, descontos em faculdades e streamings.</p>
+                
+                <button id="btn-acessar-loja" class="btn-secundario btn-full" style="display: flex; justify-content: center; align-items: center; gap: 8px;">
+                    <span style="font-size: 1.2rem;">🛍️</span> Entrar na Loja
+                </button>
+
+                <div class="container-patrocinadores">
+                    <span class="titulo-patrocinadores">Marcas que apoiam essa ideia:</span>
+                    <div class="carrossel-patrocinadores">
+                        <div class="trilha-patrocinadores">
+                            <div class="patrocinador-item">✈️ VoeMais Air</div>
+                            <div class="patrocinador-item">🎬 CineStream</div>
+                            <div class="patrocinador-item">🍔 FoodFast</div>
+                            <div class="patrocinador-item">🎓 UniEnsino</div>
+                            <div class="patrocinador-item">🛍️ MegaShop</div>
+                            
+                            <div class="patrocinador-item">✈️ VoeMais Air</div>
+                            <div class="patrocinador-item">🎬 CineStream</div>
+                            <div class="patrocinador-item">🍔 FoodFast</div>
+                            <div class="patrocinador-item">🎓 UniEnsino</div>
+                            <div class="patrocinador-item">🛍️ MegaShop</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="como-funciona-preview">
+            
+            <div id="bloco-visitante">
+                <div class="como-funciona-header">
+                    <h3>Como o UPLift funciona</h3>
+                    <p>Ajudar nunca foi tão simples e recompensador</p>
+                </div>
+
+                <div class="passos-container">
+                    <div class="passo-item">
+                        <div class="passo-numero">1</div>
+                        <div class="passo-texto">
+                            <h4>Escolha uma causa</h4>
+                            <p>Navegue por projetos verificados e faça sua doação com segurança</p>
+                        </div>
+                    </div>
+                    <div class="passo-item">
+                        <div class="passo-numero">2</div>
+                        <div class="passo-texto">
+                            <h4>Acumule pontos</h4>
+                            <p>Cada ação confirmada gera UPLift points automaticamente no seu perfil</p>
+                        </div>
+                    </div>
+                    <div class="passo-item">
+                        <div class="passo-numero">3</div>
+                        <div class="passo-texto">
+                            <h4>Acompanhe e cresça</h4>
+                            <p>Suba no ranking da comunidade e veja o impacto real da sua ajuda</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <a href="#" class="link-saiba-mais btn-centralizado">Entender a mecânica completa ➔</a>
+            </div> <div id="bloco-usuario-logado" style="display: none;">
+                <div class="como-funciona-header">
+                    <h3>Meu Impacto Pessoal</h3>
+                    <p>O reflexo da sua generosidade no mundo.</p>
+                </div>
+
+                <div class="grid-numeros" style="margin-bottom: 32px;">
+                    <div class="numero-item">
+                        <span class="numero-destaque" style="color: #2e7d32;">3</span>
+                        <span class="numero-texto">Doações<br>Realizadas</span>
+                    </div>
+                    <div class="numero-item">
+                        <span class="numero-destaque" style="color: #2e7d32;">15</span>
+                        <span class="numero-texto">Vidas<br>Alcançadas</span>
+                    </div>
+                    <div class="numero-item">
+                        <span class="numero-destaque" style="font-size: 1.5rem; margin-bottom: 6px;">Água</span>
+                        <span class="numero-texto">Causa<br>Favorita</span>
+                    </div>
+                </div>
+                
+                <a href="#" class="link-saiba-mais btn-centralizado">Ver relatório detalhado ➔</a>
+            </div>
+
+        </section>
+    </main>
+    <div id="modal-perfil" class="js-modal-overlay">
+        <div id="modal-box">
+            <button id="fechar-modal" class="fechar-modal-cadastro js-fechar-modal">X</button>
+            <div class="modal-avatar">FN</div>
+            <h2 class="modal-nome">Felipe Neves</h2>
+            <span class="modal-pontos">1250 pts</span>
+
+            <button id="btn-deslogar" class="btn-sair">Sair da conta</button>
+        </div>
+    </div>
+    <div id="modal-tipo-cadastro" class="js-modal-overlay">
+        <div class="modal-box-cadastro">
+            <button class="fechar-modal-cadastro js-fechar-modal" id="fechar-tipo-cadastro">X</button>
+            <h2 class="titulo-cadasstro">Junte-se ao UPLift</h2>
+            <p class="subtitulo-cadastro">Como você deseja participar da nossa comunidade?</p>
+
+            <div class="opcoes-cadastro">
+                <button id="btn-escolha-doador" class="btn-opcao">
+                    <span class="opcao-icone">👤</span>
+                    <div class="opcao-texto">
+                        <strong>Doador</strong>
+                        <span>Quero apoiar causas e acumular pontos</span>
+                    </div>
+                </button>
+
+                <button id="btn-escolha-empresa" class="btn-opcao">
+                    <span class="opcao-icone">🏢</span>
+                    <div class="opcao-texto">
+                        <strong>Empresa Parceira</strong>
+                        <span>Quero oferecer recompensas e apoiar</span>
+                    </div>
+                </button>
+            </div>    
+
+            <div class="link-login-rodape">
+                Já tem uma conta? <a href="#" id="link-abrir-login">Faça Login</a>
+            </div>            
+        </div>
+    </div>   
+    
+    <div id="modal-login" class="js-modal-overlay">
+        <div class="modal-box-login">
+            <button class="fechar-modal-login js-fechar-modal">X</button>
+            <h2 class="titulo-login">Bem vindo de volta!</h2>
+            <p class="subtitulo-login">Acesse sua conta para continuar impactando o mundo</p>
+
+            <form id="form-login">
+                <div class="grupo-input">
+                    <label for="login-email">E-mail</label>
+                    <input type="email" id="login-email" placeholder="seu@email.com" required>
+                </div>
+                <div class="grupo-input">
+                    <label for="login-senha">Senha</label>
+                    <input type="password" id="login-senha" placeholder="123senha" required>
+                </div>
+
+                <div class="opcoes-extras-login">
+                    <a href="#" class="link-esqueci-senha">Esqueceu a senha?</a>
+                </div>
+
+                <button type="submit" class="btn-primario btn-full">Entrar</button>
+            </form>
+
+            <div class="link-login-rodape">
+                Não tem uma conta? <a href="#" id="link-abrir-cadastro-pelo-login">Cadastre-se</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-doacao" class="js-modal-overlay">
+        <div class="modal-box-cadastro">
+            <button class="fechar-modal-cadastro js-fechar-modal">✕</button>
+            <h2 class="titulo-cadastro">Faça sua Doação</h2>
+            <p class="subtitulo-cadastro">Escolha a causa e o valor para transformar vidas.</p>
+
+            <form id="form-doacao">
+                <div class="grupo-input">
+                    <label for="doacao-causa">Causa / Instituição</label>
+                    <select id="doacao-causa" required>
+                        <option value="" disabled selected>Selecione um projeto...</option>
+                        <option value="agua">Água Limpa Para Todos (Angola)</option>
+                        <option value="educacao">Educação Sem Fronteiras (Brasil)</option>
+                        <option value="refugio">Refúgio e Esperança (Síria)</option>
+                        <option value="saude">Saúde e Nutrição Infantil (Haiti)</option>
+                    </select>
+                </div>
+
+                <div class="grupo-input">
+                    <label for="doacao-valor">Valor da doação (R$)</label>
+                    <input type="number" id="doacao-valor" placeholder="Ex: 50" min="5" step="1" required>
+                </div>
+
+                <div class="preview-pontos">
+                    <span>Pontos gerados:</span>
+                    <strong id="pontos-calculados">0 pts</strong>
+                </div>
+
+                <button type="submit" class="btn-primario btn-full" style="margin-top: 8px;">Confirmar Doação</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="modal-loja-manutencao" class="js-modal-overlay">
+        <div class="modal-box-cadastro" style="padding-top: 0; overflow: hidden;"> <div class="faixa-manutencao">
+                🚧 EM CONSTRUÇÃO 🚧
+            </div>
+            
+            <button class="fechar-modal-cadastro js-fechar-modal" style="top: 48px;">✕</button>
+            
+            <div style="padding: 24px 0 0 0; text-align: center;">
+                <h2 class="titulo-cadastro" style="margin-bottom: 12px;">Loja em Breve!</h2>
+                <p class="subtitulo-cadastro" style="line-height: 1.5;">Seção ainda em construção.</p>
+                <p class="subtitulo-cadastro" style="line-height: 1.5; color: #111;">Continue acumulando seus <strong>pontos vitalícios</strong>. Avisaremos você assim que novos itens e resgates maravilhosos forem disponibilizados na loja!</p>
+                
+                <button class="btn-primario js-fechar-modal" style="margin-top: 24px; width: 100%;">Entendi, vou juntar pontos</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
